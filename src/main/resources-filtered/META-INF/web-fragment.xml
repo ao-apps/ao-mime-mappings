@@ -35,8 +35,10 @@ along with ao-mime-mappings.  If not, see <http://www.gnu.org/licenses />.
 
 	<!--
 		MIME types, with UTF-8 defaults where appropriate.
-		Note: This list is very similar to LastModifiedServlet.java
+
+		Note: This list parallels the extensions in LastModifiedServlet.java
 	-->
+
 	<!-- CSS -->
 	<mime-mapping>
 		<extension>css</extension>
