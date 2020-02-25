@@ -42,7 +42,7 @@ along with ao-mime-mappings.  If not, see <http://www.gnu.org/licenses />.
 	<!-- CSS -->
 	<mime-mapping>
 		<extension>css</extension>
-		<mime-type>text/css;charset=UTF-8</mime-type>
+		<mime-type>text/css; charset=UTF-8</mime-type>
 	</mime-mapping>
 	<!-- Diagrams -->
 	<mime-mapping>
@@ -58,22 +58,20 @@ along with ao-mime-mappings.  If not, see <http://www.gnu.org/licenses />.
 	<!-- class: Default OK -->
 	<mime-mapping>
 		<extension>jnlp</extension>
-		<mime-type>application/x-java-jnlp-file;charset=UTF-8</mime-type>
+		<mime-type>application/x-java-jnlp-file; charset=UTF-8</mime-type>
 	</mime-mapping>
 	<mime-mapping>
 		<extension>tld</extension>
-		<mime-type>application/xml;charset=UTF-8</mime-type>
+		<mime-type>application/xml; charset=UTF-8</mime-type>
 	</mime-mapping>
 	<!-- JavaScript -->
 	<mime-mapping>
 		<extension>js</extension>
-		<!-- // TODO: application/javascript once we don't care about IE <= 8 -->
-		<mime-type>text/javascript;charset=UTF-8</mime-type>
+		<mime-type>application/javascript; charset=UTF-8</mime-type>
 	</mime-mapping>
 	<mime-mapping>
 		<extension>spt</extension>
-		<!-- // TODO: application/javascript once we don't care about IE <= 8 -->
-		<mime-type>text/javascript;charset=UTF-8</mime-type>
+		<mime-type>application/javascript; charset=UTF-8</mime-type>
 	</mime-mapping>
 	<mime-mapping>
 		<extension>jsfl</extension>
@@ -84,35 +82,35 @@ along with ao-mime-mappings.  If not, see <http://www.gnu.org/licenses />.
 	<!-- HTML document -->
 	<mime-mapping>
 		<extension>htm</extension>
-		<mime-type>text/html;charset=UTF-8</mime-type>
+		<mime-type>text/html; charset=UTF-8</mime-type>
 	</mime-mapping>
 	<mime-mapping>
 		<extension>html</extension>
-		<mime-type>text/html;charset=UTF-8</mime-type>
+		<mime-type>text/html; charset=UTF-8</mime-type>
 	</mime-mapping>
 	<mime-mapping>
 		<extension>xhtml</extension>
-		<mime-type>application/xhtml+xml;charset=UTF-8</mime-type>
+		<mime-type>application/xhtml+xml; charset=UTF-8</mime-type>
 	</mime-mapping>
 	<mime-mapping>
 		<!-- https://stackoverflow.com/questions/31250/content-type-for-mht-files -->
 		<extension>mhtml</extension>
-		<mime-type>multipart/related;charset=UTF-8</mime-type>
+		<mime-type>multipart/related; charset=UTF-8</mime-type>
 	</mime-mapping>
 	<!-- PDF document -->
 	<!-- pdf: Default OK -->
 	<!-- XML document -->
 	<mime-mapping>
 		<extension>xml</extension>
-		<mime-type>application/xml;charset=UTF-8</mime-type>
+		<mime-type>application/xml; charset=UTF-8</mime-type>
 	</mime-mapping>
 	<mime-mapping>
 		<extension>xsd</extension>
-		<mime-type>application/xml;charset=UTF-8</mime-type>
+		<mime-type>application/xml; charset=UTF-8</mime-type>
 	</mime-mapping>
 	<mime-mapping>
 		<extension>rss</extension>
-		<mime-type>application/rss+xml;charset=UTF-8</mime-type>
+		<mime-type>application/rss+xml; charset=UTF-8</mime-type>
 	</mime-mapping>
 
 </web-fragment>
