@@ -26,7 +26,7 @@ Shared set of MIME mappings with an emphasis on UTF-8.
 ## Project Links
 * [Project Home](https://aoindustries.com/ao-mime-mappings/)
 * [Changelog](https://aoindustries.com/ao-mime-mappings/changelog)
-* [Maven Central Repository](https://search.maven.org/#search%7Cgav%7C1%7Cg:%22com.aoindustries%22%20AND%20a:%22ao-mime-mappings%22)
+* [Maven Central Repository](https://search.maven.org/artifact/com.aoindustries/ao-mime-mappings)
 * [GitHub](https://github.com/aoindustries/ao-mime-mappings)
 
 ## Contact Us
