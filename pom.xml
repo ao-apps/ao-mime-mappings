@@ -29,7 +29,7 @@ along with ao-mime-mappings.  If not, see <http://www.gnu.org/licenses />.
 		<relativePath>../ao-oss-parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.aoindustries</groupId><artifactId>ao-mime-mappings</artifactId><version>1.0.0</version>
+	<groupId>com.aoindustries</groupId><artifactId>ao-mime-mappings</artifactId><version>1.0.0-POST-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 
 	<name>AO MIME Mappings</name>
@@ -42,7 +42,7 @@ along with ao-mime-mappings.  If not, see <http://www.gnu.org/licenses />.
 		<connection>scm:git:git://github.com/aoindustries/ao-mime-mappings.git</connection>
 		<developerConnection>scm:git:git@github.com:aoindustries/ao-mime-mappings.git</developerConnection>
 		<url>https://github.com/aoindustries/ao-mime-mappings</url>
-		<tag>ao-mime-mappings-1.0.0</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>
