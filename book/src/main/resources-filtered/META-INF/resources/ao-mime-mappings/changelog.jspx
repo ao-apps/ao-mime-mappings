@@ -37,6 +37,7 @@ along with ao-mime-mappings.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2020-02-24T23:12:44-0600"
+		dateModified="2020-03-28T21:00:07-05:00"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.aoindustries:ao-mime-mappings:pom.version}" />
@@ -51,21 +52,30 @@ along with ao-mime-mappings.  If not, see <http://www.gnu.org/licenses />.
 				groupId="@{project.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{project.scm.url}"
-			>
-				<ul>
-					<li>
-						<p>
-							Added a set of <![CDATA[&lt;mime-mapping&gt;]]> that we previously had installed to various projects.
-							These have an emphasis on serving content as <code>UTF-8</code>, including CSS, JavaScript, HTML, XML, …
-						</p>
-						<p>
-							Projects that rely on these mappings, such as
-							<ao:a href="https://aoindustries.com/ao-servlet-last-modified/">AO Servlet Last Modified</ao:a>,
-							simply add this as a Maven dependency.
-						</p>
-					</li>
-				</ul>
-			</changelog:release>
+			/>
 		</c:if>
+
+		<changelog:release
+			projectName="@{documented.name}"
+			version="1.0.0"
+			datePublished="2020-03-28T21:00:07-05:00"
+			groupId="@{project.groupId}"
+			artifactId="@{documented.artifactId}"
+			scmUrl="@{project.scm.url}"
+		>
+			<ul>
+				<li>
+					<p>
+						Added a set of <![CDATA[&lt;mime-mapping&gt;]]> that we previously had installed to various projects.
+						These have an emphasis on serving content as <code>UTF-8</code>, including CSS, JavaScript, HTML, XML, …
+					</p>
+					<p>
+						Projects that rely on these mappings, such as
+						<ao:a href="https://aoindustries.com/ao-servlet-last-modified/">AO Servlet Last Modified</ao:a>,
+						simply add this as a Maven dependency.
+					</p>
+				</li>
+			</ul>
+		</changelog:release>
 	</core:page>
 </jsp:root>
