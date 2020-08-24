@@ -34,7 +34,13 @@ along with ao-mime-mappings.  If not, see <http://www.gnu.org/licenses />.
 	<!--
 		MIME types, with UTF-8 defaults where appropriate.
 
-		Note: This list parallels the extensions in LastModifiedServlet.java
+		Related to LocaleFilter.java
+		Related to NoSessionFilter.java
+		Related to SessionResponseWrapper.java
+		Matches LastModifiedServlet.java
+		Is ao-mime-types/…/web-fragment.xml
+		Related to ContentType.java
+		Related to MimeType.java
 	-->
 
 	<!-- CSS -->
@@ -109,6 +115,27 @@ along with ao-mime-mappings.  If not, see <http://www.gnu.org/licenses />.
 	<mime-mapping>
 		<extension>rss</extension>
 		<mime-type>application/rss+xml; charset=UTF-8</mime-type>
+	</mime-mapping>
+	<!-- Web development -->
+	<mime-mapping>
+		<extension>less</extension>
+		<mime-type>text/plain; charset=UTF-8</mime-type><!-- See https://stackoverflow.com/a/45102599 -->
+	</mime-mapping>
+	<mime-mapping>
+		<extension>sass</extension>
+		<mime-type>text/x-sass; charset=UTF-8</mime-type><!-- See https://stackoverflow.com/a/40893366 -->
+	</mime-mapping>
+	<mime-mapping>
+		<extension>scss</extension>
+		<mime-type>text/x-scss; charset=UTF-8</mime-type><!-- See https://stackoverflow.com/a/40893366 -->
+	</mime-mapping>
+	<mime-mapping>
+		<extension>css.map</extension>
+		<mime-type>application/json; charset=UTF-8</mime-type><!-- See https://stackoverflow.com/a/44184109 -->
+	</mime-mapping>
+	<mime-mapping>
+		<extension>js.map</extension>
+		<mime-type>application/json; charset=UTF-8</mime-type><!-- See https://stackoverflow.com/a/44184109 -->
 	</mime-mapping>
 
 </web-fragment>
