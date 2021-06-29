@@ -33,7 +33,8 @@ along with ao-mime-mappings.  If not, see <http://www.gnu.org/licenses />.
 	<packaging>bundle</packaging>
 
 	<properties>
-		<!-- Java 1.7 -->
+		<module.name>com.aoapps.mime.mappings</module.name>
+		<!-- Java 1.7 for Java EE 7 -->
 		<javase.version>1.7</javase.version>
 		<javase.release>7</javase.release>
 		<javadoc.link.javase>${javadoc.link.javase.7}</javadoc.link.javase>
@@ -80,4 +81,18 @@ along with ao-mime-mappings.  If not, see <http://www.gnu.org/licenses />.
 		<system>GitHub Issues</system>
 		<url>https://github.com/aoindustries/ao-mime-mappings/issues</url>
 	</issueManagement>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.felix</groupId><artifactId>maven-bundle-plugin</artifactId>
+				<configuration>
+					<instructions>
+						<!-- Java 1.8 -->
+						<Automatic-Module-Name>${module.name}</Automatic-Module-Name>
+					</instructions>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
