@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 ao-mime-mappings - Shared set of MIME mappings with an emphasis on UTF-8.
-Copyright (C) 2020, 2021  AO Industries, Inc.
+Copyright (C) 2020, 2021, 2022  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -27,115 +27,115 @@ along with ao-mime-mappings.  If not, see <https://www.gnu.org/licenses/>.
                       http://xmlns.jcp.org/xml/ns/javaee/web-fragment_3_1.xsd"
   version="3.1"
   metadata-complete="false">
-	<name>@{project.groupId}:@{project.artifactId}</name>
-	<!-- <display-name>@{project.name} @{project.version}</display-name> -->
-	<description>@{project.description}</description>
+  <name>@{project.groupId}:@{project.artifactId}</name>
+  <!-- <display-name>@{project.name} @{project.version}</display-name> -->
+  <description>@{project.description}</description>
 
-	<!--
-		MIME types, with UTF-8 defaults where appropriate.
+  <!--
+    MIME types, with UTF-8 defaults where appropriate.
 
-		Related to LocaleFilter.java
-		Related to NoSessionFilter.java
-		Related to SessionResponseWrapper.java
-		Matches LastModifiedServlet.java
-		Is ao-mime-types/…/web-fragment.xml
-		Related to ContentType.java
-		Related to MimeType.java
-	-->
+    Related to LocaleFilter.java
+    Related to NoSessionFilter.java
+    Related to SessionResponseWrapper.java
+    Matches LastModifiedServlet.java
+    Is ao-mime-types/…/web-fragment.xml
+    Related to ContentType.java
+    Related to MimeType.java
+  -->
 
-	<!-- CSS -->
-	<mime-mapping>
-		<extension>css</extension>
-		<mime-type>text/css; charset=UTF-8</mime-type>
-	</mime-mapping>
-	<!-- Diagrams -->
-	<mime-mapping>
-		<!--
-			MIME type assigned to .dia files.
-			Consistent with <a href="https://www.mediawiki.org/wiki/Extension:Dia">Dia Extension for MediaWiki</a>.
-		-->
-		<extension>dia</extension>
-		<mime-type>application/x-dia-diagram</mime-type>
-	</mime-mapping>
-	<!-- Java -->
-	<!-- jar  : Default OK -->
-	<!-- class: Default OK -->
-	<mime-mapping>
-		<extension>jnlp</extension>
-		<mime-type>application/x-java-jnlp-file; charset=UTF-8</mime-type>
-	</mime-mapping>
-	<mime-mapping>
-		<extension>tld</extension>
-		<mime-type>application/xml; charset=UTF-8</mime-type>
-	</mime-mapping>
-	<!-- JavaScript -->
-	<mime-mapping>
-		<extension>js</extension>
-		<mime-type>application/javascript; charset=UTF-8</mime-type>
-	</mime-mapping>
-	<mime-mapping>
-		<extension>spt</extension>
-		<mime-type>application/javascript; charset=UTF-8</mime-type>
-	</mime-mapping>
-	<mime-mapping>
-		<extension>jsfl</extension>
-		<mime-type>text/x-actionscript</mime-type>
-	</mime-mapping>
-	<!-- Image types -->
-	<!-- All defaults OK -->
-	<!-- HTML document -->
-	<mime-mapping>
-		<extension>htm</extension>
-		<mime-type>text/html; charset=UTF-8</mime-type>
-	</mime-mapping>
-	<mime-mapping>
-		<extension>html</extension>
-		<mime-type>text/html; charset=UTF-8</mime-type>
-	</mime-mapping>
-	<mime-mapping>
-		<extension>xhtml</extension>
-		<mime-type>application/xhtml+xml; charset=UTF-8</mime-type>
-	</mime-mapping>
-	<mime-mapping>
-		<!-- https://stackoverflow.com/questions/31250/content-type-for-mht-files -->
-		<extension>mhtml</extension>
-		<mime-type>multipart/related; charset=UTF-8</mime-type>
-	</mime-mapping>
-	<!-- PDF document -->
-	<!-- pdf: Default OK -->
-	<!-- XML document -->
-	<mime-mapping>
-		<extension>xml</extension>
-		<mime-type>application/xml; charset=UTF-8</mime-type>
-	</mime-mapping>
-	<mime-mapping>
-		<extension>xsd</extension>
-		<mime-type>application/xml; charset=UTF-8</mime-type>
-	</mime-mapping>
-	<mime-mapping>
-		<extension>rss</extension>
-		<mime-type>application/rss+xml; charset=UTF-8</mime-type>
-	</mime-mapping>
-	<!-- Web development -->
-	<mime-mapping>
-		<extension>less</extension>
-		<mime-type>text/plain; charset=UTF-8</mime-type><!-- See https://stackoverflow.com/a/45102599 -->
-	</mime-mapping>
-	<mime-mapping>
-		<extension>sass</extension>
-		<mime-type>text/x-sass; charset=UTF-8</mime-type><!-- See https://stackoverflow.com/a/40893366 -->
-	</mime-mapping>
-	<mime-mapping>
-		<extension>scss</extension>
-		<mime-type>text/x-scss; charset=UTF-8</mime-type><!-- See https://stackoverflow.com/a/40893366 -->
-	</mime-mapping>
-	<mime-mapping>
-		<extension>css.map</extension>
-		<mime-type>application/json; charset=UTF-8</mime-type><!-- See https://stackoverflow.com/a/44184109 -->
-	</mime-mapping>
-	<mime-mapping>
-		<extension>js.map</extension>
-		<mime-type>application/json; charset=UTF-8</mime-type><!-- See https://stackoverflow.com/a/44184109 -->
-	</mime-mapping>
+  <!-- CSS -->
+  <mime-mapping>
+    <extension>css</extension>
+    <mime-type>text/css; charset=UTF-8</mime-type>
+  </mime-mapping>
+  <!-- Diagrams -->
+  <mime-mapping>
+    <!--
+      MIME type assigned to .dia files.
+      Consistent with <a href="https://www.mediawiki.org/wiki/Extension:Dia">Dia Extension for MediaWiki</a>.
+    -->
+    <extension>dia</extension>
+    <mime-type>application/x-dia-diagram</mime-type>
+  </mime-mapping>
+  <!-- Java -->
+  <!-- jar  : Default OK -->
+  <!-- class: Default OK -->
+  <mime-mapping>
+    <extension>jnlp</extension>
+    <mime-type>application/x-java-jnlp-file; charset=UTF-8</mime-type>
+  </mime-mapping>
+  <mime-mapping>
+    <extension>tld</extension>
+    <mime-type>application/xml; charset=UTF-8</mime-type>
+  </mime-mapping>
+  <!-- JavaScript -->
+  <mime-mapping>
+    <extension>js</extension>
+    <mime-type>application/javascript; charset=UTF-8</mime-type>
+  </mime-mapping>
+  <mime-mapping>
+    <extension>spt</extension>
+    <mime-type>application/javascript; charset=UTF-8</mime-type>
+  </mime-mapping>
+  <mime-mapping>
+    <extension>jsfl</extension>
+    <mime-type>text/x-actionscript</mime-type>
+  </mime-mapping>
+  <!-- Image types -->
+  <!-- All defaults OK -->
+  <!-- HTML document -->
+  <mime-mapping>
+    <extension>htm</extension>
+    <mime-type>text/html; charset=UTF-8</mime-type>
+  </mime-mapping>
+  <mime-mapping>
+    <extension>html</extension>
+    <mime-type>text/html; charset=UTF-8</mime-type>
+  </mime-mapping>
+  <mime-mapping>
+    <extension>xhtml</extension>
+    <mime-type>application/xhtml+xml; charset=UTF-8</mime-type>
+  </mime-mapping>
+  <mime-mapping>
+    <!-- https://stackoverflow.com/questions/31250/content-type-for-mht-files -->
+    <extension>mhtml</extension>
+    <mime-type>multipart/related; charset=UTF-8</mime-type>
+  </mime-mapping>
+  <!-- PDF document -->
+  <!-- pdf: Default OK -->
+  <!-- XML document -->
+  <mime-mapping>
+    <extension>xml</extension>
+    <mime-type>application/xml; charset=UTF-8</mime-type>
+  </mime-mapping>
+  <mime-mapping>
+    <extension>xsd</extension>
+    <mime-type>application/xml; charset=UTF-8</mime-type>
+  </mime-mapping>
+  <mime-mapping>
+    <extension>rss</extension>
+    <mime-type>application/rss+xml; charset=UTF-8</mime-type>
+  </mime-mapping>
+  <!-- Web development -->
+  <mime-mapping>
+    <extension>less</extension>
+    <mime-type>text/plain; charset=UTF-8</mime-type><!-- See https://stackoverflow.com/a/45102599 -->
+  </mime-mapping>
+  <mime-mapping>
+    <extension>sass</extension>
+    <mime-type>text/x-sass; charset=UTF-8</mime-type><!-- See https://stackoverflow.com/a/40893366 -->
+  </mime-mapping>
+  <mime-mapping>
+    <extension>scss</extension>
+    <mime-type>text/x-scss; charset=UTF-8</mime-type><!-- See https://stackoverflow.com/a/40893366 -->
+  </mime-mapping>
+  <mime-mapping>
+    <extension>css.map</extension>
+    <mime-type>application/json; charset=UTF-8</mime-type><!-- See https://stackoverflow.com/a/44184109 -->
+  </mime-mapping>
+  <mime-mapping>
+    <extension>js.map</extension>
+    <mime-type>application/json; charset=UTF-8</mime-type><!-- See https://stackoverflow.com/a/44184109 -->
+  </mime-mapping>
 
 </web-fragment>
