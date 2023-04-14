@@ -20,7 +20,7 @@ Shared set of MIME mappings with an emphasis on UTF-8.
 ## Project Links
 * [Project Home](https://oss.aoapps.com/mime-mappings/)
 * [Changelog](https://oss.aoapps.com/mime-mappings/changelog)
-* [Maven Central Repository](https://central.sonatype.com/search?namespace=com.aoapps&q=a%3Aao-mime-mappings)
+* [Maven Central Repository](https://central.sonatype.com/artifact/com.aoapps/ao-mime-mappings)
 * [GitHub](https://github.com/ao-apps/ao-mime-mappings)
 
 ## Contact Us
