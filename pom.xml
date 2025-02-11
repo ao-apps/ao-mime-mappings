@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 ao-mime-mappings - Shared set of MIME mappings with an emphasis on UTF-8.
-Copyright (C) 2020, 2021, 2022, 2023, 2024  AO Industries, Inc.
+Copyright (C) 2020, 2021, 2022, 2023, 2024, 2025  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -114,7 +114,7 @@ along with ao-mime-mappings.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>org.apache.felix</groupId><artifactId>maven-bundle-plugin</artifactId>
         <configuration>
           <instructions>
-            <!-- Java 1.8 -->
+            <!-- No module-info.java -->
             <Automatic-Module-Name>${module.name}</Automatic-Module-Name>
           </instructions>
         </configuration>
