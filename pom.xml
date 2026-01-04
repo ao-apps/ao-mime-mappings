@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 ao-mime-mappings - Shared set of MIME mappings with an emphasis on UTF-8.
-Copyright (C) 2020, 2021, 2022, 2023, 2024, 2025  AO Industries, Inc.
+Copyright (C) 2020, 2021, 2022, 2023, 2024, 2025, 2026  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -36,10 +36,13 @@ along with ao-mime-mappings.  If not, see <https://www.gnu.org/licenses/>.
     <!-- Must be set to ${git.commit.time} for snapshots or ISO 8601 timestamp for releases. -->
     <project.build.outputTimestamp>${git.commit.time}</project.build.outputTimestamp>
     <module.name>com.aoapps.mime.mappings</module.name>
-    <!-- Java 1.7 for Java EE 7 -->
-    <javase.version>1.7</javase.version>
-    <javase.release>7</javase.release>
-    <javadoc.link.javase>${javadoc.link.javase.7}</javadoc.link.javase>
+    <!-- Java 11 for Jakarta EE 10 -->
+    <javase.version>11</javase.version>
+    <javase.release>11</javase.release>
+    <javadoc.link.javase>${javadoc.link.javase.11}</javadoc.link.javase>
+    <!-- Jakarta EE 10 -->
+    <javaee.version>10</javaee.version>
+    <javadoc.link.javaee>${javadoc.link.jakartaee.10}</javadoc.link.javaee>
   </properties>
 
   <name>AO MIME Mappings</name>
